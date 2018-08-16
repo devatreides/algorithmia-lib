@@ -22,7 +22,7 @@ class DataObject {
      * @param string $in_dataurl The URL for the DataObject to represent
      * @param Client $client The client object to use if you want to actually connect.
      */
-    public function __construct(string $in_dataurl, Client $in_client = null){
+    public function __construct($in_dataurl, Client $in_client = null){
         $this->client = $in_client;
         $this->dataUrl = rtrim($in_dataurl,"/");
 
