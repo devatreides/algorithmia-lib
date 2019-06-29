@@ -7,8 +7,8 @@ class Algorithmia
      * Returns a newly created Algorithmia Client
      * @param string $in_key The API key to use when making requests.
      */
-    public static function client($in_key = null) {
-        return new Algorithmia\Client($in_key);
+    public static function client($in_key = null, $in_baseurl=null) {
+        return new Algorithmia\Client($in_key, $in_baseurl);
     }
 
     /**
