@@ -1,4 +1,6 @@
-Algorithmia Common Library (PHP)
+<p align="center">
+    <img src="https://banners.beyondco.de/Algorithmia%20Lib.png?theme=light&packageManager=composer+require&packageName=tombenevides%2Falgorithmia&pattern=architect&style=style_1&description=fork+of+gorithmiaio&md=1&showWatermark=0&fontSize=100px&images=code" width="600" alt="PHP-Video-Maker">
+</p>
 ================================
 
 PHP client library for accessing the Algorithmia API
